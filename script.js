@@ -4,11 +4,11 @@ $("#dialog").hide();
 $('ul').hide();
 $('#roadsCar').hide();
 $('div.first, div.first a').on('click', function(){
-	$('ul.first').slideToggle(500);
+	$('ul.first').fadeToggle(500);
 });
 
 $('div.second').on('click', function(){
-	$('ul.second').slideToggle(500);
+	$('ul.second').fadeToggle(500);
 });
 
 $('img.fli').on('click', function(){
