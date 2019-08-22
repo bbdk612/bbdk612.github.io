@@ -167,6 +167,7 @@ img.car {
     background-color: #e98585;
     border-radius: 10px;
 	font-family: "CiscoSans";
+	text-align: center;
 }
 /* Позиционируем верхний бар */
 .dialog-title{
