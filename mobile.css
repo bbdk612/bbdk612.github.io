@@ -208,6 +208,5 @@ img.car {
 	outline: none;
 }
 img.sli {
-	position: relative;
-	right: 5px;
+	position: absolute;
 }
