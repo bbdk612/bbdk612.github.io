@@ -52,9 +52,8 @@ $("div.start").on('click', function() {
 			} else if (t1 == t2) {
 				$('img.first.car').animate({left:  (widthField1 - (+$('img.first.car').width() + 10)) + 'px'}, t1 * 100);
 				$('img.second.car').animate({left:  (widthField1 - (+$('img.second.car').width() + 10)) + 'px'}, t2 * 100, function(){			
-				$('img.car').css({left: -(widthField1 +'px'}, 1000);
 				setTimeout(opendialog3(), 1000);
-				
+				$('img.car').css({left: -(widthField1 +'px'}, 1000);
 			});
 		}
 	}, 1000)
